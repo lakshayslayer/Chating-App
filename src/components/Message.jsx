@@ -24,9 +24,9 @@ const Message = ({ message }) => {
               ? currentUser.photoURL
               : data.user.photoURL
           }
-          alt=""
+          alt="Shared Image"
         />
-        <span>just now</span>
+        {/* <span>just now</span> */}
       </div>
       <div className="messageContent">
         <p>{message.text}</p>
