@@ -82,5 +82,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Author
 
 This project was created by Lakshay Garg 
+College name : IIT ISM Dhanbad
 
 If you have any questions or need assistance, please contact lakshaygarg1612@gmail.com
