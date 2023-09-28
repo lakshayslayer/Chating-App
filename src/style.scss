@@ -57,7 +57,7 @@
         width: 250px;
         border-bottom: 1px solid  rgb(244, 250, 244);
         &::placeholder {
-          color: rgb(175, 175, 175);
+          color: gray;
         }
       }
 
@@ -93,9 +93,6 @@
 
 .home {
   background-color: #8EE4AF;
-  // background-image: url('../public/images/BackgroundHome.jpg');
-  // background-color: rgb(191, 194, 237);
-  // background-color: rgb(245, 190, 219);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -120,7 +117,6 @@
       .navbar {
         display: flex;
         align-items: center;
-        // background-color: #2f8372;
         background-color: #22685a93;
 
         height: 50px;
@@ -135,20 +131,15 @@
             display: none;
           }
         }
-        
-        //* -------
+
         span{
-          // font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-          // font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          // font-family: 'Bricolage Grotesque', sans-serif;
           font-family: 'Croissant One', cursive;
         }
-        //* -------
+ 
 
         .user {
           display: flex;
           gap: 12px;
-          // padding-top: 1px;
 
           img {
             background-color: #EDF5E1;
@@ -160,7 +151,6 @@
 
           span{
             padding-top:3px;
-            // font-family: none;
             font-family: 'Lobster', cursive;
           }
 
@@ -183,19 +173,20 @@
 
         .searchForm {
           padding: 10px;
-          border-color: rgb(1, 10, 1);
+          border-bottom: 1px solid rgb(215, 254, 232);
+          border-radius: 20px;
 
           input {
             background-color: transparent;
             border: none;
             color: white;
             outline: none;
-            border-color: rgb(222, 236, 222);
+            border-color: rgb(228, 255, 228);
 
             &::placeholder {
-              color: lightgray;
+              color: rgb(253, 249, 249);
               font-family: 'Lobster', cursive;
-              // border-color: rgb(222, 236, 222);
+              border-color: rgb(244, 255, 244);
             }
           }
         }
@@ -227,7 +218,7 @@
           }
           p {
             font-size: 14px;
-            color: lightgray;
+            color: rgb(255, 255, 255);
           }
         }
       }
@@ -243,7 +234,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 10px;
-        color: lightgray;
+        color: rgb(254, 254, 254);
 
         span{
           font-family: 'Lobster', cursive;
@@ -393,23 +384,21 @@
   }
 }
 
+
 .search{
-  border-radius: 10px;
-  border: 1px rgb(250, 255, 250);
+  border-radius: 200px;
+  border: 1px rgb(255, 255, 255);
 
   .searchForm{
-    ::placeholder{
+    &::placeholder{
       color:#379683;
-      
+      //* colors used
       color:#EDF5E1;
       color:#8EE4AF;
       color:#5CDB95;
       color:#379683;
       color:#379683;
     }
-    border-color: rgb(222, 236, 222);
   }
 }
 
-// font-family: 'Lobster', cursive;
-// font-family: 'Croissant One', cursive;
